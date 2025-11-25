@@ -31,3 +31,7 @@ nomes.forEach(item => {
 nomes.forEach((nome, indice) => {
     console.log(`${indice + 1}º nome: ${nome}`)
 }) 
+
+for(let i = 0; i < nomes.length; i++){
+    console.log(`${i + 1}º nome: ${nomes[i]}`);
+}
