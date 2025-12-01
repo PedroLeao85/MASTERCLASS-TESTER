@@ -52,3 +52,20 @@ if (idade >= 18){
 idade >= 18 
     ? console.log('Pode entrar no app') 
     : console.log('Não pode entrar no app')
+
+// switch case
+const opcao = 1
+
+switch (opcao){
+    case 1 :
+        console.log('Voce digitou opção 1')
+        break
+    case 2 :
+        console.log('Voce digitou opção 2')
+        break
+    case 3 :
+        console.log('Voce digitou opção 3')
+        break        
+    default:
+        console.log('Voce não escolheu uma opção válida')    
+}
