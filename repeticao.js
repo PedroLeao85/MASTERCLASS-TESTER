@@ -11,3 +11,13 @@ const cidades = ['Rio de Janeiro', 'Belo Horizonte', 'São Paulo', 'Porto Alegre
 cidades.forEach((cidade, indice) => {
     console.log('Cidade: ' + cidade + ' na posição: ' + indice) 
 })
+
+console.log('---------------------------------------------------------')
+
+// Por for normal
+// 3 informações
+// controlador do índice
+
+for(let i = 0 ; i < cidades.length ; i++){
+    console.log('Cidade: ' + cidades [i] + ' na posição: ' + i)
+}
