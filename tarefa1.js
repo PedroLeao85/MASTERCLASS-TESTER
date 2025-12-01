@@ -21,6 +21,7 @@ console.log('Primeira cidade:' + cidades[0])
 cidades.push('Salvador') // adiciona 'Salvador' no final do array
 console.log('Ultima cidade: ' + cidades[cidades.length - 1])
 
+//Exercicio 2
 
 const nomes = ['Pedro' , 'Mariana', 'Lucas', 'Beatriz', 'Rafael']
 
